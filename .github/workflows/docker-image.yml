@@ -32,4 +32,4 @@ jobs:
         context: .
         file: .docker/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/fun-back:latest
+        tags: ${{ secrets.DOCKER_HUB_USER }}/fun-back:latest
